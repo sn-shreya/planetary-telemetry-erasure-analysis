@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+pymavlink
+
+These four dependencies cover:
+- numpy — EKF calculations, matrices, and numerical operations.
+- pandas — MAVLink data processing, five-second median aggregation, and result tables.
+- matplotlib — Plotting measurements and EKF estimates.
+- pymavlink — Reading and decoding MAVLink .tlog files.
