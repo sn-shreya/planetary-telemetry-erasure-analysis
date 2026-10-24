@@ -12,7 +12,7 @@ The original project involved an autonomous quadcopter payload-tracking system u
 
 The analysis starts with a recorded MAVLink `.tlog` file. I extract the available vehicle-state variables, organise them into five-second bins, calculate the median of each variable in each bin, and apply an Extended Kalman Filter to the resulting `median_data`.
 
-The main focus is to understand how missing telemetry affects state estimation and how an estimator behaves when measurements become available again. This is a preliminary simulation study motivated by communication challenges in planetary exploration. It is not intended to represent a complete planetary rover navigation system.
+The main focus is to understand how missing telemetry affects state estimation and how an estimator behaves when measurements become available again. This is a preliminary simulation study motivated by communication challenges in planetary exploration. It is not intended to represent a complete planetary vehicle navigation system. The communication challenge can be due to a hardware or software problem. You either build a better hardware or software the next time or predict possible missing data in the ongoing mission itself. I tried the latter here.
 
 ## Objectives
 
